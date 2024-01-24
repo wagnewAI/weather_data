@@ -1,3 +1,3 @@
-#GIT learning
+#Git and vesrtion control learning
 
-learning git ethiopian computer science group
+learning git and software evelopment Ethiopian computer science group!!
