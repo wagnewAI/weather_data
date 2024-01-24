@@ -1,0 +1,102 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Makrazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo{
+    height: 200px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    font-size: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    display: inline-block;
+  
+  }
+  
+  nav li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+section{
+    display: flex;
+    text-align: center;
+}
+.logo_img{
+    display: block;
+    border-radius: 25px;
+}
+.new{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+ .new h1{
+    text-align: left;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    }
+article{
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin: 10px;
+}
+p{
+text-align: left;
+}
+/*section >article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;}*/
+/*section{
+    display: flex;
+}
+article{
+    flex: 1;
+}*/
+.foot{
+    display: flex;
+}
+.foot div{
+    flex: 1;
+}
+.foot div img{
+    border-style: solid;
+    border-color: gray;
+    margin-left: 50px;
+}
+.foot div p{
+    margin-top: 100px;
+    margin-left: 300px;
+    text-decoration-line: overline;
+    text-decoration-color:black;
+}
